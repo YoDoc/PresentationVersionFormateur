@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Présentation</title>
+        <meta name="description" content="Description de ma page">
+        <meta name="og:description" content="Description pour Facebook">
+        <meta name="twitter:description" content="Description pour Twitter">
+
+        <link rel="image_src" href="./images/....png">
+        <meta property="og:image" content="./images/....png">
+        <meta property="twitter:image" content="./images/....png">
+
+        <link rel="canonical" href="index.hml">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" media="screen" href="./stylesheets/main.css">
+        <link rel="stylesheet" media="print" href="./stylesheets/print.css">
+        <link rel="icon" href="./images/favicon.png">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon-60x60.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon-60x60.png">
+        <link rel="apple-touch-icon" sizes="114x144" href="./images/favicon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon-60x60.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon-60x60.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon-60x60.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon-60x60.png">
+        <meta name="msapplication-square70x70logo" content="./images/favicon-70x70.png">
+
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">    </head>
+
+    <body>
+        <header id="header" class="clearfix">
+            <a id="logo" href="/" title="Ma société, spécialisée dans le domaine alpha">
+                <img width="120" src="./images/logo-company.png" alt="Logo de ma société">
+            </a>
+            <nav id="main-nav">
+                <ul id="main-nav-list" class="list-unstyled">
+                    <li class="main-nav-item"><a class="main-nav-link" href="./presentation" title="Voir la page Présentation">Présentation</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link" href="#" title="Voir la page A propos">A propos</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link" href="#" title="Voir la page A Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="btn-toggle-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </header>
+        <div id="page-content">
+            <nav id="breadcrumb">
+                <div class="container">
+                    <ol id="breadcrumb-list" class="list-unstyled">
+                        <li class="breadcrumb-item">
+                            <a class="breadcrumb-link" href="/">
+                                <span class="fa fa-arrow-left"></span>
+                                <span class="text">Accueil</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a class="breadcrumb-link" href="#">Ma page</a>
+                        </li>
+                    </ol>
+                </div>
+            </nav>
+
+            <main id="main">
+                <div class="container">
+                    <section class="panel">
+                        <h1 class="title">Titre de la page</h1>
+                        <p class="description">Description du bloc</p>
+                        <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Cliquer ici</button>
+                        <button class="btn-window btn btn-info">Action</button>
+                    </section>
+                    <ul id="article-previews" class="list-unstyled clearfix">
+                        <li class="article-preview-item">
+                            <a class="article-preview-link panel clearfix" href="#" title="Voir la maison">
+                                <div class="visual-container article-preview-section" style="background-image: url(images/house-1.jpg)">
+                                    <img class="visual" src="images/house-1.jpg" alt="Photo de la maison">
+                                </div>
+                                <div class="article-preview-content article-preview-section">
+                                    <h2>Titre de l'article</h2>
+                                    <p>Description de l'article</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="article-preview-item">
+                            <a class="article-preview-link panel clearfix" href="#" title="Voir la maison">
+                                <div class="visual-container article-preview-section" style="background-image: url(images/house-2.jpg)">
+                                    <img class="visual" src="images/house-2.jpg" alt="Photo de la maison">
+                                </div>
+                                <div class="article-preview-content article-preview-section">
+                                    <h2>Titre de l'article</h2>
+                                    <p>Description de l'article</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="main-article">
+                    <div class="container">
+                        <a class="article-preview-link clearfix" href="#" title="Voir la maison">
+                            <div class="visual-container article-preview-section" style="background-image: url(images/house-2.jpg)">
+                                <img class="visual" src="images/house-2.jpg" alt="Photo de la maison">
+                            </div>
+                            <div class="article-preview-content article-preview-section">
+                                <h2>Titre de l'article</h2>
+                                <p>Description de l'article</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+        <footer id="footer">
+            <div class="container">&copy;2017 Ma société | Tous droits réservés</div>
+        </footer>
+
+        <div id="backdrop"></div>
+        <div id="window"></div>
+
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./javascripts/main.js"></script>
+    </body>
+</html>
